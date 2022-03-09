@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "poppins", sans-serif;
+    /* background-color: #282D35; */
+}
+
+nav{
+    display: flex;
+    /* background-color:#21222A; */
+    height: 90px;
+    padding: 30px 25px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+.nav-logo-text,.nav-logo-title{
+    margin: 0;
+}
+
+.nav-logo-text{
+    color: #61DAFB;
+    margin-right: auto;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.nav-logo-title{
+    font-weight: 700;
+    color: #DEEBF8;
+}
+section {
+    padding: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero--photo {
+    max-width: 400px;
+    align-self: center;
+}
+
+.hero--header {
+    margin-bottom: 16px;
+}
+
+.hero--text {
+    margin-top: 0;
+}
+.card-list{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    margin: 20px;
+}
+
+.card-list::-webkit-scrollbar{
+    display: none;
+}
+
+.card{
+    display: flex;
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;  
+    flex-direction: column;
+    position: relative;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+.card-title{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.card-stats{
+    display: flex;
+    align-items: center;
+}
+
+.card-star{
+    margin-top: auto;
+}
+.bold{
+    font-weight: bold;
+}
+.card-badge{
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    background-color: #fff;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+
+}
+
+.footer{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 400;
+    color: #a1a1a1;
+}
